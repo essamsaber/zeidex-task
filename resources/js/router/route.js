@@ -13,6 +13,8 @@ import ShowProduct from '../components/Product/Show';
 import Products from '../components/Product/Products';
 
 const routes = [
+    {path: '/', redirect: '/products'},
+
     {path: '/categories', component: Categories, name:'categories'},
     {path: '/categories/create', component: CreateCategory, name:'createCategory'},
     {path: '/categories/:id/edit', component: EditCategory, name:'editCategory', params: true},

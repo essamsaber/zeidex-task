@@ -57222,6 +57222,9 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 
 
 var routes = [{
+  path: '/',
+  redirect: '/products'
+}, {
   path: '/categories',
   component: _components_category_Categories__WEBPACK_IMPORTED_MODULE_2__["default"],
   name: 'categories'
